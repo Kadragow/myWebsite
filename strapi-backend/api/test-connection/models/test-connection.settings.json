@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_connections",
+  "info": {
+    "name": "Test Connection"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "richText": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_test_component_test_components",
+  "info": {
+    "name": "Test component",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "tDate": {
+      "type": "datetime",
+      "unique": false
+    }
+  }
+}

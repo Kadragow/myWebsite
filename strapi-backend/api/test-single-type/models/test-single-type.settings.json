@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "test_single_types",
+  "info": {
+    "name": "Test single type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "testText": {
+      "type": "string",
+      "required": true
+    },
+    "testRichText": {
+      "type": "richtext"
+    },
+    "testDate": {
+      "type": "date"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/test-single-type",
+      "handler": "test-single-type.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/test-single-type",
+      "handler": "test-single-type.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/test-single-type",
+      "handler": "test-single-type.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
